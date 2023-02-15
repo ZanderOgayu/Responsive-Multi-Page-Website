@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Input Types </title>
+    <style type="text/css">
+	  table, td, th {
+     border:1px solid black;
+     border-spacing:5px;
+   }
+  td {
+     padding:5px;
+	 text-align:left;
+   }
+   </style>
+	</head>
+	<center><button><a href="index.html"> Go Back </a></button></center>
+	<body style="background-color:#90EE90">
+	     <h3> Input Types </h3>
+		 <table>
+           <tr>
+		        <th> Input Type </th>
+                <td> Text </td>
+                <td> Range </td>
+                <td> Color </td>
+                <td> Date </td>
+                <td> Email </td>
+				<td> Month </td>
+				<td> Number </td>
+				<td> Search </td>
+				<td> Time </td>
+				<td> Week </td>
+				<td> URL </td>
+			</tr>
+			<tr>
+			    <th> Result </th>
+			    <td> <input type="text" id="fname" name="fname" value="" placeholder="Type Your Name"> </td>
+				<td> <form oninput="res.value = slider1.value">
+                        <label>Select Weight</label><br>
+                        <input type="range" name="slider1" min="10" max="200" step="10"  
+                        value="30"> <br/>   
+                        <output name="res" for="slider1">30</output>
+                        </form></td>
+				<td> <input type="color">  </td>
+				<td> <input type="date"> </td>
+				<td> <input type="email" placeholder="yourname@gmail.com"></td>
+				<td> <input type="month"> </td>
+				<td> <input type="number" placeholder="Enter Your Number">  </td>
+				<td> <input type="search" placeholder="Search Here"> </td>
+				<td> <input type="time"> </td>
+				<td> <input type="week"></td>
+				<td> <input type="url" placeholder="Search A URL><input type="submit" value="submit"> </td>
+			</tr>
+			<tr>
+			    <th> Description </th>
+			    <td> A placeholder to add input which in this case, your name </td>
+				<td> numeric value and can set limits  through attributes min max </td>
+				<td>  Color Picker </td>
+				<td> Date Selection </td?>
+				<td> Email Input </td>
+				<td> Month Year Selection </td>
+				<td> Input Number </td>
+				<td> Information Locator </td>
+				<td> Time Selection </td>
+				<td> week and year controlled (No time zone </td>
+				<td> Web Address Input </td>
+			</tr>
+			
+</body>
+</html>
